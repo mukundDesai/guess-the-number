@@ -77,7 +77,7 @@ function validateGuess() {
 }
 
 //on mouse click
-document.querySelector('.check').addEventListener('click', validateGuess());
+document.querySelector('.check').addEventListener('click', validateGuess);
 
 //on pressing `enter`
 document.querySelector('.guess').addEventListener('keyup', (e) => {
